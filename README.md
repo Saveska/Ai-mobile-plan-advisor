@@ -12,6 +12,7 @@ Built with Microsoft Power Apps, Power Automate, a Python Flask API, the Groq AP
 2. On **Compare**, Power Automate sends the selected plans and the priority to the Flask API.
 3. The API builds a prompt, asks the LLM for a pros and cons analysis, and generates a PDF report.
 4. The user enters an email address and the PDF is sent to their inbox.
+
 The AI is instructed not to pick for the user. It explains the pros and cons of each plan relative to the chosen priority and ends with a one-line conclusion about which plan is better value for that priority.
  
 ## Architecture
